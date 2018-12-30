@@ -1,0 +1,34 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/base/_variables.scss",
+		"../scss/base/_mixins.scss",
+		"../scss/base/_base.scss",
+		"../scss/base/_reset.scss",
+		"../scss/layout/_header.scss",
+		"../scss/layout/_nav.scss",
+		"../scss/layout/_footer.scss",
+		"../scss/modules/_typography.scss",
+		"../scss/modules/_buttons.scss",
+		"../scss/modules/_blocks.scss",
+		"../scss/modules/_components.scss"
+	],
+	"sourcesContent": [
+		"@import  'base/_variables.scss';\n@import  'base/_mixins.scss';\n@import  'base/_base.scss';\n@import  'base/_reset.scss';\n@import  'base/_variables.scss';\n\n@import 'layout/_header.scss';\n@import 'layout/_nav.scss';\n@import 'layout/_footer.scss';\n\n\n@import 'modules/_typography.scss';\n@import 'modules/_buttons.scss';\n@import 'modules/_blocks.scss';\n@import 'modules/_components.scss';\n\n\n",
+		"$primary-color: #003d99;\n$secondary-color: #333;\n",
+		"@mixin border-radius($radius: 5px) {\n\tborder-radius: $radius;\n\t-webkit-border-radius: $radius;\n\t-moz-border-radius: $radius;\n}",
+		"body{\n\tfont-family: 'Georgia', sans-serif;\n\tfont-size: 14px;\n\tcolor: #666;\n\tline-height:1.5em;\n\tbackground: #f4f4f4\n}\n\n#container{\n\twidth:960px;\n\tmargin: 20px auto;\n\toverflow: auto;\n\tborder: #ccc solid 1px;\n\tbackground:white;\n\tborder-radius: 5px;\n\t-webkit-border-radius: 5px;\n\t-moz-border-radius: 5px;\n\t@include border-radius(10px);\n}\n\n\n\n\nsection{\n\tmin-height: 200px;\n}\n\n",
+		"*{\n\tmargin: 0;\n\tpadding: 0;\n}\n\nul li{\n\tlist-style:none;\n}",
+		"header{\n\tbackground: $primary-color;\n\tcolor: #fff;\n\theight: 90px;\n\n\th1{\n\t\tpadding: 20px 0 0 10px;\n\t}\n}\n\n",
+		"nav{\n\theight: 30px;\n\tbackground: $secondary-color;\n\tcolor: #fff;\n\tpadding-top: 10px;\n}\nnav li{\n\tfloat:left;\n\tpadding: 0 20px 0 20px;\n}\nnav a{\n\tcolor:#fff;\n\n}",
+		"footer{\n\ttext-align:center;\n\tpadding: 20px;\n\tbackground-color: $primary-color;\n\tcolor:white;\n}",
+		"",
+		"",
+		"",
+		""
+	],
+	"mappings": ";AGAA,AAAA,IAAI,CAAA;EACH,WAAW,EAAE,qBAAsB;EACnC,SAAS,EAAE,IAAK;EAChB,KAAK,EAAE,IAAK;EACZ,WAAW,EAAC,KAAM;EAClB,UAAU,EAAE,OACZ;CAAC;;;AAEF,AAAA,UAAU,CAAA;EACT,KAAK,EAAC,KAAM;EACZ,MAAM,EAAE,SAAU;EAClB,QAAQ,EAAE,IAAK;EACf,MAAM,EAAE,cAAe;EACvB,UAAU,EAAC,KAAM;EACjB,aAAa,EAAE,GAAI;EACnB,qBAAqB,EAAE,GAAI;EAC3B,kBAAkB,EAAE,GAAI;EDfxB,aAAa,ECgBU,IAAI;EDf3B,qBAAqB,ECeE,IAAI;EDd3B,kBAAkB,ECcK,IAAI;CAC3B;;;AAKD,AAAA,OAAO,CAAA;EACN,UAAU,EAAE,KAAM;CAClB;;;ACzBD,AAAA,CAAC,CAAA;EACA,MAAM,EAAE,CAAE;EACV,OAAO,EAAE,CAAE;CACX;;;AAED,AAAG,EAAD,CAAC,EAAE,CAAA;EACJ,UAAU,EAAC,IAAK;CAChB;;;ACPD,AAAA,MAAM,CAAA;EACL,UAAU,EJDK,OAAO;EIEtB,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,IAAK;CAKb;;;AARD,AAKC,MALK,CAKL,EAAE,CAAA;EACD,OAAO,EAAE,aAAc;CACvB;;;ACPF,AAAA,GAAG,CAAA;EACF,MAAM,EAAE,IAAK;EACb,UAAU,ELDO,IAAI;EKErB,KAAK,EAAE,IAAK;EACZ,WAAW,EAAE,IAAK;CAClB;;;AACD,AAAI,GAAD,CAAC,EAAE,CAAA;EACL,KAAK,EAAC,IAAK;EACX,OAAO,EAAE,aAAc;CACvB;;;AACD,AAAI,GAAD,CAAC,CAAC,CAAA;EACJ,KAAK,EAAC,IAAK;CAEX;;;ACbD,AAAA,MAAM,CAAA;EACL,UAAU,EAAC,MAAO;EAClB,OAAO,EAAE,IAAK;EACd,gBAAgB,ENHD,OAAO;EMItB,KAAK,EAAC,KAAM;CACZ",
+	"names": []
+}
